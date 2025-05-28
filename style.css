@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 30px;
+  background-color: hsl(311, 88%, 74%);
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
